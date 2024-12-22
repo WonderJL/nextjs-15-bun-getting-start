@@ -13,7 +13,7 @@ This is a simple messaging application built with modern web technologies like R
 
 ## Prerequisites
 
-- **Node.js**: Version 18 or higher.
+- **Bun**: Installed globally on your system.
 - **SQLite**: Installed locally (optional for inspecting the database).
 
 ## Installation
@@ -26,30 +26,30 @@ This is a simple messaging application built with modern web technologies like R
 
 2. Install dependencies:
    ```bash
-   npm install
+   bun install
    ```
 
 ## Scripts
 
 - **Development:** Start the development server:
   ```bash
-  npm run dev
+  bun run dev
   ```
   Default port: `3001`
 
 - **Build:** Create a production build:
   ```bash
-  npm run build
+  bun run build
   ```
 
 - **Preview:** Serve the production build locally:
   ```bash
-  npm run serve
+  bun run serve
   ```
 
 - **Type Check:** Validate TypeScript:
   ```bash
-  npm run typecheck
+  bun run typecheck
   ```
 
 ## Project Structure
@@ -64,7 +64,7 @@ This is a simple messaging application built with modern web technologies like R
 - A SQLite database (`database.sqlite.db`) is used for storing application data.
 - Initialize the database using the script:
   ```bash
-  node init-db.ts
+  bun run init-db.ts
   ```
 
 ## Technologies
